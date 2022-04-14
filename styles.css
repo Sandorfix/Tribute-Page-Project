@@ -1,0 +1,64 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    background-color: #141E27;
+    color: rgb(224, 221, 170);
+    height: 100%;
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 1.2rem;
+}
+
+h1, p {
+    background-color: rgb(32, 50, 57);
+    padding: 15px;
+}
+
+#main {
+    text-align: center;  
+}
+
+.satchmo {
+    font-style: italic;
+    font-weight: 700;
+}
+
+#img-div {
+    display: block;
+    margin: 20px; 
+    }
+
+#image {
+    max-width: 100%;
+    display: block;
+    height: auto;
+    margin: 0 auto;
+    border-radius: 5px;
+    border: 2px solid rgb(224, 221, 170);
+}    
+
+#img-caption {
+    margin-top: 15px;
+}
+
+#tribute-info {
+    padding: 3em;
+    line-height: 1.4;
+}
+
+#tribute-link {
+    display: inline-block;
+    color: white;
+    margin: 20px;
+    font-weight: 700;
+}
+
+@media only screen and (max-width: 480px) {
+    #tribute-info {
+        padding: 0.5rem;
+    }
+}
+
